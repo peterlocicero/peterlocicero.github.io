@@ -1,0 +1,263 @@
+body{
+  background-color: pink;
+}
+
+.grid-container {
+  display: grid;
+   grid-template-columns: repeat(10, minmax(0, .5fr));
+
+
+}
+.grid-item {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  color:white;
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.grid-spacer{
+   grid-column-start: 1;
+  grid-column-end: 7;
+  background-color: transparent;
+}
+
+.navBar {
+  grid-column-start: 2;
+  grid-column-end: 10;
+  display: grid;
+  /* grid-template-columns: repeat(8, minmax(0, .5fr)); */
+  background-color: white;
+  border: 5px solid black;
+}
+
+.navBar img{
+  width: 100%;
+  height: auto;
+}
+
+.girl1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+
+  max-width: 100%;
+  height: auto;
+
+
+
+}
+
+.girl2{
+  grid-column-start: 8;
+  grid-column-end: 9;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  max-width: 100%;
+  height: auto;
+
+}
+.grid-image {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  max-width: 100%;
+  height: auto;
+}
+
+.navText{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-column-start: 3;
+  grid-column-end: 7;
+  font-family: 'PT Sans', sans-serif;
+  color: hotpink;
+  font-size:43px
+
+}
+
+.buyNow{
+  border: 5px solid black;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: rgb(229,129,214);
+  font-family: 'Rubik Beastly', cursive;
+  display: flex;
+  justify-content: center;
+  color:black;
+  font-size:35px
+
+}
+
+.buyNowBottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'PT Sans', sans-serif;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  font-size:26px;
+  color:hotpink;
+  background-color:white;
+
+}
+a{
+  color:hotpink;
+}
+
+.centerText{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+
+
+}
+
+.about{
+    border: 5px solid black;
+    grid-column-start: 5;
+    grid-column-end: 10;
+    font-family: 'Rubik Beastly', cursive;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(188,226,148);
+    font-size:35px;
+}
+
+.aboutBottom{
+  font-family: 'PT Sans', sans-serif;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  grid-column-start: 5;
+  grid-column-end: 10;
+  font-size:26px;
+  display: flex;
+  justify-content: center;
+  color:hotpink;
+  background-color:white;
+}
+
+.pic1{
+  background-size: contain;
+  border: 1px solid black;
+  width: 480px;
+  height: 301px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-image: url('images/1.jpg');
+}
+.pic2{
+  background-size: contain;
+  border: 1px solid black;
+  width: 480px;
+  height: 301px;
+  background-color: white;
+   background-repeat: no-repeat;
+   background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  background-image: url('images/2.jpg');
+}
+.pic3{
+  background-size: contain;
+  border: 1px solid black;
+  width: 480px;
+  height: 301px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  background-image: url('images/3.jpg');
+}
+.pic4{
+  background-size: contain;
+  border: 1px solid black;
+  width: 480px;
+  height: 301px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  background-image: url('images/4.jpg');
+}
+.pic5{
+  background-size: contain;
+  border: 1px solid black;
+  width: 480px;
+  height: 301px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  background-image: url('images/5.jpg');
+}
+.pic6{
+  background-size: contain;
+  border: 1px solid black;
+  width: 480px;
+  height: 301px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  background-image: url('images/6.jpg');
+}
+
+
+.spotify{
+  grid-column-start: 2;
+  grid-column-end: 10;
+  width:1900px;
+  height: 70px;
+}
+
+.imageGroup{
+  grid-column-start: 5;
+  grid-column-end: 10;
+}
+
+.imageRows{
+  display: flex;
+  flex-direction: column;
+   padding: 0px;
+  /* justify-content: space-around; */
+}
+
+.spacer{
+  height: 50px;
+  background-color: transparent;
+}
+
+.row1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  color: black;
+  font-size: 24px;
+}
